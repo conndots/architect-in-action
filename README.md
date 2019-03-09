@@ -48,13 +48,86 @@
 
 1. 乐观锁，悲观锁
 2. CAS
-3. AQS
-4. ReentrantLock
+3. [Java] AQS
+4. [Java] ReentrantLock
 5. CyclincBarrier & CountDownLatch
 6. JVM
    1. 内存模型
    2. 重排序
    3. Happens-before
-7. Actor模型
-8. Go的goroutine调度器实现
+7. Go的goroutine调度器实现
+8. 事务
+   1. ACID
+   2. 事务的隔离级别
+   3. MVCC
+   4. *Design Data-Intensive Applications* - Transactions chapter
+9. 一致性
+  1. 两阶段提交
+  2. Paxos
+  3. Raft
+  4. Zookeeper架构与实现
+  5. etcd架构与实现
+10. 并发队列实现
+  1. 锁实现
+  2. CAS实现
+  3. Disruptor实现
+
+
+### 中间件
+
+1. Web Server
+   1. Nginx
+   2. Traefik
+2. MQ
+   1. RocketMQ
+   2. Kafka
+   3. Nsq
+3. RPC
+   1. gRPC
+   2. Thrift
+4. 缓存
+   1. Redis
+   2. 缓存失效算法
+   3. Tair
+
+### Cloud Native
+
+1. Docker
+2. Kubernetes
+3. Service Mesh
+   1. lstio
+
+### 网络
+
+1. TCP协议
+2. HTTP & HTTP 2.0
+3. HTTPS
+4. WebSocket
+5. 网络模型
+   1. Reactor [Paper](https://arxiv.org/pdf/1704.04651.pdf)
+   2. Proactor [Paper](http://www.laputan.org/pub/sag/proactor.pdf)
+   3. select/poll/epoll
+   4. Java NIO
+6. Netty剖析
+
+### 数据库
+
+1. Mysql
+   1. innodb
+   2. 优化
+2. Redis
+   1. Redis数据结构
+      1. List
+      2. Set
+      3. ZSet
+      4. Hash
+   2. Codis
+3. 存储索引算法
+   1. Log Structured Merge Tree
+      1. Paper: [The Log-Structured Merge Tree](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+      2. [dgraph-io/badger](https://github.com/dgraph-io/badger)
+   2. B Tree
+      1. [etcd-io/bbolt](https://github.com/etcd-io/bbolt)
+
+### 大数据
 
