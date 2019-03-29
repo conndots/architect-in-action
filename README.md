@@ -8,7 +8,7 @@
 
 # 优秀的高级工程师之路
 
-## 基础知识
+## 技术
 
 ### 数据结构与算法
 
@@ -56,18 +56,7 @@
    2. 重排序
    3. Happens-before
 7. Go的goroutine调度器实现
-8. 事务
-   1. ACID
-   2. 事务的隔离级别
-   3. MVCC
-   4. *Design Data-Intensive Applications* - Transactions chapter
-9. 一致性
-  1. 两阶段提交
-  2. Paxos
-  3. Raft
-  4. Zookeeper架构与实现
-  5. etcd架构与实现
-10. 并发队列实现
+8. 并发队列实现
   1. 锁实现
   2. CAS实现
   3. Disruptor实现
@@ -128,6 +117,34 @@
       2. [dgraph-io/badger](https://github.com/dgraph-io/badger)
    2. B Tree
       1. [etcd-io/bbolt](https://github.com/etcd-io/bbolt)
+
+### 分布式系统
+
+1. Replication
+2. Partition
+3. Transaction
+   1. ACID
+   2. BASE
+   3. MVCC
+4. 一致性
+   1. 两阶段提交
+   2. Paxos
+   3. Raft
+   4. Zookeeper架构与实现
+   5. etcd架构与实现
+
+### 开发方法论
+
+1. 代码风格
+2. 测试
+   1. 单元测试
+   2. 集成测试
+3. DevOps
+4. 敏捷开发
+
+### 项目管理
+
+
 
 ### 大数据
 
